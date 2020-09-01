@@ -1,0 +1,17 @@
+{
+  "name": "Block-Chain",
+  "version": "1.0.0",
+  "description": "Lerning TypeScript by making a blockchain",
+  "main": "index.js",
+  "author": "Jiwon",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js \" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  }
+}
